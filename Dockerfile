@@ -1,4 +1,4 @@
-FROM gliderlabs/alpine:3.1
+FROM gliderlabs/alpine:3.7
 
 RUN \
   apk --update add nodejs python make g++ \
